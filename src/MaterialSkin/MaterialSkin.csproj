@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Ignace Maes</Authors>
+    <PackageTags>material design theme winforms materialskin</PackageTags>
+    <Description>IgnaceMaes' MaterialSkin port to .NET 5</Description>
+    <PackageProjectUrl>https://github.com/bubuntoid/MaterialSkin.NET5</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>MaterialSkin.NET5</PackageId>
+  </PropertyGroup>
+
+</Project>
