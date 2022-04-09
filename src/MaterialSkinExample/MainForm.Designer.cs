@@ -302,7 +302,7 @@ namespace MaterialSkinExample
             this.materialSingleLineTextField1.Hint = "This is a hint";
             this.materialSingleLineTextField1.Location = new System.Drawing.Point(0, 16);
             this.materialSingleLineTextField1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.materialSingleLineTextField1.MaxLength = 32767;
+            this.materialSingleLineTextField1.MaxLength = 10;
             this.materialSingleLineTextField1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialSingleLineTextField1.Name = "materialSingleLineTextField1";
             this.materialSingleLineTextField1.PasswordChar = '\0';
