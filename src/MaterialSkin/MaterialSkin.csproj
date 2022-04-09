@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
@@ -10,6 +10,9 @@
     <PackageProjectUrl>https://github.com/bubuntoid/MaterialSkin.NET5</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageId>MaterialSkin.NET5</PackageId>
+    <RepositoryUrl>https://github.com/bubuntoid/MaterialSkin.NET5</RepositoryUrl>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
   </PropertyGroup>
 
 </Project>
