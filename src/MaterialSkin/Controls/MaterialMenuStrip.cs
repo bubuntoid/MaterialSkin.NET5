@@ -70,7 +70,7 @@ namespace MaterialSkin.Controls
 			var itemRect = GetItemRect(e.Item);
 			if (e.Item.IsOnDropDown)
 			{
-				g.FillRectangle(e.Item.Selected && e.Item.Enabled ? SkinManager.GetCmsSelectedItemBrush() : new SolidBrush(SkinManager.GetApplicationBackgroundColor()), itemRect);
+				g.FillRectangle(e.Item.Selected && e.Item.Enabled ? SkinManager.GetFlatButtonPressedBackgroundBrush() : new SolidBrush(SkinManager.PrimaryColor), itemRect);
 			}
 			else
 			{
@@ -98,14 +98,14 @@ namespace MaterialSkin.Controls
 
 		protected override void OnRenderImageMargin(ToolStripRenderEventArgs e)
 		{
-			//base.OnRenderImageMargin(e);
+			// base.OnRenderImageMargin(e);
 		}
 
 		protected override void OnRenderSeparator(ToolStripSeparatorRenderEventArgs e)
 		{
 			var g = e.Graphics;
 
-			g.FillRectangle(new SolidBrush(SkinManager.GetApplicationBackgroundColor()), e.Item.Bounds);
+			g.FillRectangle(new SolidBrush(SkinManager.PrimaryColor), e.Item.Bounds);
 			g.DrawLine(new Pen(SkinManager.GetDividersColor()), new Point(e.Item.Bounds.Left, e.Item.Bounds.Height / 2), new Point(e.Item.Bounds.Right, e.Item.Bounds.Height / 2));
 		}
 

@@ -6,14 +6,19 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Ignace Maes</Authors>
     <PackageTags>material design theme winforms materialskin</PackageTags>
-    <Description>IgnaceMaes' MaterialSkin port to .NET 5</Description>
+    <Description>IgnaceMaes' MaterialSkin port to .NET 5
+
+https://github.com/bubuntoid/MaterialSkin.NET5</Description>
     <PackageProjectUrl>https://github.com/bubuntoid/MaterialSkin.NET5</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageId>MaterialSkin.NET5</PackageId>
     <RepositoryUrl>https://github.com/bubuntoid/MaterialSkin.NET5</RepositoryUrl>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
-	<Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+	<Version>1.0.2</Version>
+	<PackageReleaseNotes>MaterialMenuStrip rendering fix
+https://github.com/bubuntoid/MaterialSkin.NET5/issues/3</PackageReleaseNotes>
+	<Title>MaterialSkin.NET5</Title>
   </PropertyGroup>
 
 </Project>
